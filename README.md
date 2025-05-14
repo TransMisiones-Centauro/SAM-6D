@@ -44,6 +44,10 @@ sh prepare.sh
 ```
 We also provide a [docker image](https://hub.docker.com/r/lihualiu/sam-6d/tags) for convenience.
 
+```
+docker run --rm -it --gpus all --volume .:/SAM-6D lihualiu/sam-6d:1.0 bash
+```
+
 ### 2. Evaluation on the custom data
 ```
 cd SAM-6D
